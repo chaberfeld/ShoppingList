@@ -9,5 +9,6 @@ Operation: Type item to be added into a EditText<br />
            To remove item, tap on the item. Another toast.<br />
 
 Features:  Landscape uses different layout than portrait<br />
+           ArrayList<String> for the list is saved to the Bundle so survives onDestroy()<br />
            The EditText is the to CapsOn for the first letter<br />
            The soft keyboard is suppressed until EditText tapped using a Manifest setting<br />
